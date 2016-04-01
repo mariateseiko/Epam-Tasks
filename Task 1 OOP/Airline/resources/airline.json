@@ -1,0 +1,47 @@
+{
+  "name": "TestAirport",
+  "planes": [
+    {
+      "id": 1,
+      "type": "passenger",
+      "name": "Airbus A380",
+      "fuelConsumptionPerHour": 5700,
+      "flightRange": 15200,
+      "capacity": 858
+    },
+    {
+      "id": 2,
+      "type": "passenger",
+      "name": "Boeing 747",
+      "fuelConsumptionPerHour": 3600,
+      "flightRange": 9800,
+      "capacity": 800
+    },
+    {
+      "id": 3,
+      "type": "cargo",
+      "name": "Lockheed C-5 Galaxy",
+      "fuelConsumptionPerHour": 7300,
+      "flightRange": 5526,
+      "liftingCapacity": 150600
+    },
+    {
+      "id": 4,
+      "type": "cargo",
+      "name": "Tu-330",
+      "fuelConsumptionPerHour": 1300,
+      "flightRange": 5600,
+      "liftingCapacity": 35000
+    },
+    {
+      "id": 5,
+      "type": "private",
+      "name": "Cessna-206",
+      "fuelConsumptionPerHour": 174,
+      "flightRange": 870,
+      "capacity": 6,
+      "owner": "John Smith",
+      "numberOfEngines": 1
+    }
+  ]
+}

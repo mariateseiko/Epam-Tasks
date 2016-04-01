@@ -1,0 +1,30 @@
+{
+  "name": "TestParkingNetwork",
+  "parkings": [
+    {
+      "id": 1,
+      "parkingPlaces": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parkingPlaces": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.example.com/devices"
+          xsi:schemaLocation="http://www.example.com/devices devices.xsd">
+
+    <peripheral name="Omega-OM545G" origin="Japan">
+        <price>15</price>
+        <device-type>mouse</device-type>
+    <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+    
+    <component name="Atheros-AR9825" origin="China">
+        <price>50</price>
+        <device-type>network adapter</device-type>
+        <critical>false</critical>
+        <component-type>
+            <cooler>false</cooler>
+            <power>1.2</power>
+        </component-type>
+    </component>
+
+    <component name="Pentium-DualCore-T4500">
+        <price>250</price>
+        <device-type>cpu</device-type>
+        <critical>true</critical>
+        <component-type>
+            <cooler>true</cooler>
+            <power>5</power>
+        </component-type>
+    </component>
+
+    <peripheral name="WebCam-351002">
+        <price>30</price>
+        <device-type>webcam</device-type>
+        <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>multimedia</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+
+    <component name="AMD-FX-4300" origin="USA">
+        <price>85</price>
+        <device-type>cpu</device-type>
+        <critical>true</critical>
+        <component-type>
+            <cooler>false</cooler>
+            <power>3.2</power>
+        </component-type>
+    </component>
+    
+    <component name="Toshiba-DT01ACA-3TB">
+        <price>150</price>
+        <device-type>drive</device-type>
+        <critical>true</critical>
+        <component-type>
+            <cooler>false</cooler>
+            <power>5.2</power>
+        </component-type>
+    </component>
+    
+    <peripheral name="A4Tech-Bloody-B540">
+        <price>100</price>
+        <device-type>keyboard</device-type>
+        <plug-and-play>true</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+
+    <peripheral name="Kyocera-Mita-FS-1040">
+        <price>105</price>
+        <device-type>printer</device-type>
+        <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>LPT</port>
+        </peripheral-type>
+    </peripheral>
+
+    <peripheral name="Xerox-WorkCentre-3025BI" origin="USA">
+        <price>220</price>
+        <device-type>printer</device-type>
+        <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>LPT</port>
+        </peripheral-type>
+    </peripheral>
+
+    <peripheral name="Microlab-M-880" origin="Japan">
+        <price>50</price>
+        <device-type>headphones</device-type>
+        <plug-and-play>true</plug-and-play>
+        <peripheral-type>
+            <group>multimedia</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+
+    <peripheral name="LG-22MP47A" origin="Korea">
+        <price>175</price>
+        <device-type>monitor</device-type>
+        <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>LPT</port>
+        </peripheral-type>
+    </peripheral>
+
+    <component name="TP-Link-TF-3200">
+        <price>15</price>
+        <device-type>network adapter</device-type>
+        <critical>false</critical>
+        <component-type>
+            <cooler>false</cooler>
+            <power>1.3</power>
+        </component-type>
+    </component>
+
+    <component name="Seagate-Barracuda-7200">
+        <price>75</price>
+        <device-type>drive</device-type>
+        <critical>true</critical>
+        <component-type>
+            <cooler>false</cooler>
+            <power>4.1</power>
+        </component-type>
+    </component>
+
+    <peripheral name="A4Tech-X7-G800V">
+        <price>80</price>
+        <device-type>keyboard</device-type>
+        <plug-and-play>true</plug-and-play>
+        <peripheral-type>
+            <group>i/o</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+
+    <peripheral name="SVEN-IC-990-HD">
+        <price>45</price>
+        <device-type>webcam</device-type>
+        <plug-and-play>false</plug-and-play>
+        <peripheral-type>
+            <group>multimedia</group>
+            <port>USB</port>
+        </peripheral-type>
+    </peripheral>
+
+</devices>

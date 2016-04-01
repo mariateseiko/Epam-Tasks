@@ -1,0 +1,11 @@
+Planes sorted by flight range (ascending):
+PrivatePlane[id: 5; name: Cessna-206; fuel consumption (ton/hour): 174; flight range (km): 870; passengerCapacity: 6; owner: John Smith; number of engines: 1]
+CargoPlane[id: 3; name: Lockheed C-5 Galaxy; fuel consumption (ton/hour): 7300; flight range (km): 5526; lifting capacity: 150600]
+CargoPlane[id: 4; name: Tu-330; fuel consumption (ton/hour): 1300; flight range (km): 5600; lifting capacity: 35000]
+PassengerPlane[id: 2; name: Boeing 747; fuel consumption (ton/hour): 3600; flight range (km): 9800; passengerCapacity: 800]
+PassengerPlane[id: 1; name: Airbus A380; fuel consumption (ton/hour): 5700; flight range (km): 15200; passengerCapacity: 858]
+Planes found by fuel consumption in range 2000-7000:
+PassengerPlane[id: 1; name: Airbus A380; fuel consumption (ton/hour): 5700; flight range (km): 15200; passengerCapacity: 858]
+PassengerPlane[id: 2; name: Boeing 747; fuel consumption (ton/hour): 3600; flight range (km): 9800; passengerCapacity: 800]
+Total cargo lifting capacity: 185600
+Total passenger lifting capacity: 1664

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/devices"
+        xmlns:tns="http://www.example.com/devices"
+        elementFormDefault="qualified">
+    <element name="devices">
+        <complexType>
+            <sequence>
+                <element ref="tns:device"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="device" type="tns:Device" abstract="true"></element>
+    <element name="peripheral" type="tns:Peripheral" substitutionGroup="tns:device"></element>
+    <element name="component" type="tns:Component" substitutionGroup="tns:device"></element>
+
+    <complexType name="Device">
+        <sequence>
+            <element name="price" type="tns:Price"/>
+            <element name="device-type" type="tns:DeviceType"/>
+        </sequence>
+        <attribute name="name" type="tns:Name" use="required"/>
+        <attribute name="origin" type="string" use="optional" default="Unknown"/>
+    </complexType>
+
+    <complexType name="Peripheral">
+        <complexContent>
+            <extension base="tns:Device">
+                <sequence>
+                    <element name="plug-and-play" type="boolean"/>
+                    <element name="type" type="tns:PeripheralType"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Component">
+        <complexContent>
+            <extension base="tns:Device">
+                <sequence>
+                    <element name="critical" type="boolean"/>
+                    <element name="type" type="tns:ComponentType"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="PeripheralType">
+        <sequence>
+            <element name="group" type="tns:Group"/>
+            <element name="port" type="tns:Port"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="ComponentType">
+        <sequence>
+            <element name="cooler" type="boolean"/>
+            <element name="power" type="tns:Power"/>
+            <element name="group" type="tns:Group"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="Group">
+        <restriction base="string">
+            <enumeration value="i/o"/>
+            <enumeration value="multimedia"/>
+            <enumeration value="storage"/>
+            <enumeration value="network"/>
+            <enumeration value="other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="DeviceType">
+        <restriction base="string">
+            <enumeration value="mouse"/>
+            <enumeration value="keyboard"/>
+            <enumeration value="printer"/>
+            <enumeration value="webcam"/>
+            <enumeration value="monitor"/>
+            <enumeration value="headphones"/>
+            <enumeration value="network adapter"/>
+            <enumeration value="cpu"/>
+            <enumeration value="drive"/>
+            <enumeration value="other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Port">
+        <restriction base="string">
+            <enumeration value="COM"/>
+            <enumeration value="USB"/>
+            <enumeration value="LPT"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Name">
+       <restriction base="ID">
+            <pattern value="[A-z][A-z0-9-]{2,}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Price">
+        <restriction base="positiveInteger">
+            <minInclusive value="1"/>
+            <maxInclusive value="5000"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Power">
+        <restriction base="decimal">
+            <minInclusive value="0.01"/>
+            <maxInclusive value="50"/>
+        </restriction>
+    </simpleType>
+</schema>

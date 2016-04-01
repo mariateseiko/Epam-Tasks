@@ -1,0 +1,33 @@
+26.11.2015 03:56:56 [main] DEBUG by.bsuir.airline.actions.Stats - Passenger Capacity: 1664
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [name: Airbus A380; fuel consumptions (ton/hour): 5700; flight range (km): 15200; passengers capacity: 858] created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [name: Boeing 747; fuel consumptions (ton/hour): 3600; flight range (km): 9800; passengers capacity: 800] created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [name: Lockheed C-5 Galaxy; fuel consumptions (ton/hour): 7300; flight range (km): 5526; lifting capacity: 150600] created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [name: Tu-330; fuel consumptions (ton/hour): 1300; flight range (km): 5600; lifting capacity: 35000] created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.PrivatePlaneCreator - New PrivatePlane [name: Cessna-206; fuel consumptions (ton/hour): 174; flight range (km): 870; passengers capacity: 6; owner: John Smith; number of engines: 1] created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.creator.AirlineCreator - New airline TestAirport with 5 planes created
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.actions.Stats - Lifting Capacity: 185600
+26.11.2015 03:57:58 [main] DEBUG by.bsuir.airline.actions.Stats - Passenger Capacity: 1664
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [name: Airbus A380; fuel consumption (ton/hour): 5700 flight range (km): 15200; passengerCapacity: 858] created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [name: Boeing 747; fuel consumption (ton/hour): 3600 flight range (km): 9800; passengerCapacity: 800] created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [name: Lockheed C-5 Galaxy; fuel consumption (ton/hour): 7300 flight range (km): 5526; lifting capacity: 150600] created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [name: Tu-330; fuel consumption (ton/hour): 1300 flight range (km): 5600; lifting capacity: 35000] created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.PrivatePlaneCreator - New PrivatePlane [name: Cessna-206; fuel consumption (ton/hour): 174 flight range (km): 870; passengerCapacity: 6; owner: John Smith; number of engines: 1] created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.creator.AirlineCreator - New airline TestAirport with 5 planes created
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Lifting Capacity: 185600
+01.12.2015 23:18:15 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Passenger Capacity: 1664
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [id: 1name: Airbus A380; fuel consumption (ton/hour): 5700 flight range (km): 15200; passengerCapacity: 858] created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [id: 2name: Boeing 747; fuel consumption (ton/hour): 3600 flight range (km): 9800; passengerCapacity: 800] created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [id: 3name: Lockheed C-5 Galaxy; fuel consumption (ton/hour): 7300 flight range (km): 5526; lifting capacity: 150600] created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [id: 4name: Tu-330; fuel consumption (ton/hour): 1300 flight range (km): 5600; lifting capacity: 35000] created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.PrivatePlaneCreator - New PrivatePlane [id: 5name: Cessna-206; fuel consumption (ton/hour): 174 flight range (km): 870; passengerCapacity: 6; owner: John Smith; number of engines: 1] created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.creator.AirlineCreator - New airline TestAirport with 5 planes created
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Lifting Capacity: 185600
+01.12.2015 23:24:42 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Passenger Capacity: 1664
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [id: 1; name: Airbus A380; fuel consumption (ton/hour): 5700; flight range (km): 15200; passengerCapacity: 858] created
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.PassengerPlaneCreator - New PassengerPlane [id: 2; name: Boeing 747; fuel consumption (ton/hour): 3600; flight range (km): 9800; passengerCapacity: 800] created
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [id: 3; name: Lockheed C-5 Galaxy; fuel consumption (ton/hour): 7300; flight range (km): 5526; lifting capacity: 150600] created
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.CargoPlaneCreator - New CargoPlane [id: 4; name: Tu-330; fuel consumption (ton/hour): 1300; flight range (km): 5600; lifting capacity: 35000] created
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.PrivatePlaneCreator - New PrivatePlane [id: 5; name: Cessna-206; fuel consumption (ton/hour): 174; flight range (km): 870; passengerCapacity: 6; owner: John Smith; number of engines: 1] created
+01.12.2015 23:26:19 [main] DEBUG by.bsuir.airline.creator.AirlineCreator - New airline TestAirport with 5 planes created
+01.12.2015 23:26:20 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Lifting Capacity: 185600
+01.12.2015 23:26:20 [main] DEBUG by.bsuir.airline.actions.PlanesStats - Passenger Capacity: 1664
